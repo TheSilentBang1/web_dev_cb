@@ -1,0 +1,70 @@
+body {
+    font-family: Arial;
+    background-color: lightcyan;
+}
+nav {
+    background-color: black;
+    overflow: hidden;
+}
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+}
+nav a:hover {
+    background-color: blue;
+    color: red;
+}
+.basic-info {
+    text-align: center;
+    margin: 30px;
+}
+section {
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+}
+.skills-table {
+    width: 100%;
+}
+
+.skills-table th, .skills-table td {
+    border: 1px solid #510c0c;
+    padding: 10px;
+    text-align: left;
+}
+.contact-form {
+    max-width: 400px;
+    margin: auto;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    background-color: #fff;
+}
+.contact-form input,.contact-form textarea,.contact-form button {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+}
+.contact-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.contact-form button:hover {
+    background-color: #45a049;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
